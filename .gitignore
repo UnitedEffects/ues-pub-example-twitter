@@ -40,6 +40,7 @@ jspm_packages
 .idea/
 .env/
 .env
+.env.qa
 dist/
 .serverless/
 node_modules/
