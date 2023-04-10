@@ -28,7 +28,7 @@ async function getSecretJwt(minutes = 1) {
 
 /**
  * The below function uses the SDK, but if you wish to make the request
- * directly you can. You'd make requests to the url in the AUDIENCE variable above.
+ * directly you can. You'd make requests to the url https://auth.unitedeffects.com
  * See the API Reference in our docs under UE Auth, postGroupToken
  **/
 async function requestToken() {
