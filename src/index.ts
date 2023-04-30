@@ -111,7 +111,7 @@ async function start() {
                     case 'AUTHORIZATION_VIOLATION':
                     case 'AUTHENTICATION_EXPIRED':
                         // when one of the above happens, reconnect
-                        connect()
+                        start()
                             .then(nc => doThis(nc))
                             .catch(error => console.error(error));
                         break;
